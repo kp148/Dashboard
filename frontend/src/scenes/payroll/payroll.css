@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3E2723; /* Dark Chocolate Background */
+    color: #FF8C00; /* Orange Text */
+}
+
+.dashboard {
+    padding: 20px;
+}
+
+.ds-n {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF8C00; /* Orange */
+    box-shadow: 0 0 10px #FF8C00;
+}
+
+.ds-n:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #FF8C00, 0 0 10px #FF8C00;
+    box-shadow: 0 0 5px #FF8C00, 0 0 10px #FF8C00;
+}
+
+.date, .snap, .compare {
+    background-color: #5D4037; /* Slightly lighter dark chocolate */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FF8C00;
+}
+
+.total-order-item {
+    background-color: #5D4037;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FF8C00;
+}
+
+.total-n {
+    margin-left: 45px;
+    margin-right: 1000px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.total-0 {
+    margin-top: -15px;
+    margin-right: 1075px;
+    margin-left: 105px;
+    padding-left: 10px;
+}
+
+.unit-n {
+    margin-left: 345px;
+    margin-right: 750px;
+    margin-top: -109px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.unit-0 {
+    margin-top: -15px;
+    margin-right: 795px;
+    margin-left: 385px;
+    padding-left: 10px;
+}
+
+.order-n {
+    margin-left: 595px;
+    margin-right: 420px;
+    margin-top: -109px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.order-0 {
+    margin-top: -15px;
+    margin-right: 505px;
+    margin-left: 675px;
+    padding-left: 10px;
+}
+
+.avg-n {
+    margin-left: 905px;
+    margin-right: 120px;
+    margin-top: -109px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.avg-0 {
+    margin-top: -15px;
+    margin-right: 200px;
+    margin-left: 970px;
+    padding-left: 10px;
+}
+
+
+.date-input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.d-btn, .a-btn, .g-btn, .t-btn {
+    width: 100px;
+    height: 45px;
+    background-color: orangered; /* Orange */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.d-btn:hover, .a-btn:hover, .g-btn:hover, .t-btn:hover {
+    background-color: #FF5722; /* Darker Orange */
+    transform: scale(1.05);
+}
+
+.sales-n, .cmps-n {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.edit {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.payroll-report {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .date, .snap, .total-order-item, .compare {
+        padding: 10px;
+    }
+
+    .ds-n {
+        font-size: 2rem;
+    }
+
+    .d-btn, .a-btn, .g-btn, .t-btn {
+        margin-top: 5px;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    .total-n {
+        margin-right: 95px;
+        padding-left: 0px;
+    }
+    
+    .total-0 {
+        margin-right: 160px;
+    }
+    
+    .unit-n {
+        margin-top: 15px;
+        margin-left: 60px;
+        margin-right: 110px;
+    }
+    
+    .unit-0 {
+        margin-top: -16px;
+        margin-left: 100px;
+        margin-right: 150px;
+    }
+    
+    .order-n {
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    
+    .order-0 {
+        margin-top: -16px;
+        margin-left: 100px;
+        margin-right: 150px;
+    }
+    
+    .avg-n {
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 70px;
+    }
+    
+    .avg-0 {
+        margin-top: -16px;
+        margin-left: 100px;
+        margin-right: 150px;
+    }
+    
+
+    .date-input {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ds-n {
+        font-size: 1.5rem;
+    }
+
+    
+}

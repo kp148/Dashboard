@@ -1,0 +1,61 @@
+.edit-cont {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px orange;
+}
+
+.edit-name {
+    color: orange;
+    text-align: center;
+    text-shadow: 2px 5px orangered, 0 0 10px orangered;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.entry, .entry1, .entry2, .entry3, .entry4 {
+    width: 100%;
+    max-width: 700px;
+    height: 60px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    margin: 15px auto;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .edit-cont {
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .edit-name {
+        font-size: 1.3rem;
+    }
+
+    .entry, .entry1, .entry2, .entry3, .entry4 {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .edit-cont {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .edit-name {
+        font-size: 1.2rem;
+    }
+
+    .entry, .entry1, .entry2, .entry3, .entry4 {
+        width: 100%;
+        height: 45px;
+    }
+}
