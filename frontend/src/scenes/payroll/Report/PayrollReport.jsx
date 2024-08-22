@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { uploadFile } from './apiService';  // Import from the API service
+import {uploadFile} from './apiService';  // Import from the API service
 import * as XLSX from 'xlsx';  // Import the XLSX library
+import "./report.css"; 
 
 function PayrollReport() {
   const [file, setFile] = useState(null);
@@ -51,10 +52,10 @@ function PayrollReport() {
   return (
     <div>
       <div className="App">
-        <h1>Upload Excel File</h1>
-        <input type="file" onChange={handleFileChange} />
-        <button onClick={handleUpload}>Upload</button>
-        <button onClick={handleFileRead}>Preview</button> {/* Button to preview file contents */}
+        <h1 className='upload'>Upload Excel File</h1>
+        <input className='choose' type="file" onChange={handleFileChange} />
+        <button className='up-btn' onClick={handleUpload}>Upload</button>
+        <button className='pr-btn' onClick={handleFileRead}>Preview</button> {/* Button to preview file contents */}
         {message && <p>{message}</p>}
         {parsedData && (
           <div>

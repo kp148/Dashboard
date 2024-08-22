@@ -1,0 +1,86 @@
+/* .App {
+    width: 400px;
+    height: auto;
+    box-shadow: 0 4px 6px orange;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.upload {
+    color: orange;
+    text-shadow: 0 4px 6px orangered;
+} */
+
+
+.App {
+    width: auto;  /* Use a percentage to allow the width to adjust to the screen size */
+    /* max-width: 400px;  Set a max width to keep the layout consistent on larger screens */
+    height: auto;
+    box-shadow: 0 4px 6px orange;
+    margin: 50px auto 0 auto;  /* Center the container horizontally and add top margin */
+    padding: 10px;
+}
+
+.upload {
+    color: orange;
+    text-shadow: 0 4px 6px orangered;
+    font-size: 32px; /* Use vw to make font size responsive */
+    margin-right: 950px;
+    margin-top: 10px;
+}
+
+.up-btn {
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 21%;
+    left: 80%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.up-btn:hover {
+    border: 2px solid orangered;
+    background-color: #fff;
+    color: orangered;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.pr-btn {
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 21%;
+    left: 88%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.pr-btn:hover {
+    border: 2px solid orangered;
+    background-color: #fff;
+    color: orangered;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.choose {
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    font-size: 25px;
+}
