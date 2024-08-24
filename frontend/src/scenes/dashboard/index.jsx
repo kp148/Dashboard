@@ -6,7 +6,7 @@ import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
-import LineChart from "../../components/LineChart";
+import LineChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
 // import { Box, Button, IconButton, Typography, Menu, MenuItem } from "@mui/material";
 import { useState } from "react";

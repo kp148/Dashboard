@@ -48,18 +48,22 @@ if (!fs.existsSync('uploads')) {
   fs.mkdirSync('uploads');
 }
 
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
 // Endpoint to handle file upload and processing
 app.post('/upload', upload.single('file'), async (req, res) => {
   try {
     const filePath = req.file.path;
     const workbook = xlsx.readFile(filePath);
+  
     const sheetName = workbook.SheetNames[0];
     const sheetData = xlsx.utils.sheet_to_json(workbook.Sheets[sheetName]);
 
     // Save data to MongoDB
     const data = new DataModel({ data: sheetData });
     await data.save();
-
+    // console.log(data);
     res.json({
       message: 'File uploaded and data saved to MongoDB successfully!',
       data: sheetData,

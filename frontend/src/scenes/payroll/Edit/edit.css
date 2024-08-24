@@ -3,7 +3,7 @@
     margin-right: auto;
     margin-top: 50px;
     width: 90%;
-    max-width: 800px;
+    max-width: 850px;
     height: auto;
     padding: 20px;
     border-radius: 25px;
@@ -25,7 +25,57 @@
     border: 1px solid orangered;
     border-radius: 5px;
     margin: 15px auto;
+    margin-left: 15px;
     position: relative;
+}
+
+.edit, .edit1, .edit2, .edit3, .edit4{
+    color: orangered;
+    background-color: #fff;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    width: 70px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    /* margin-left: 330px; */
+    position: absolute;
+    top: 30%;
+    left: 101%;
+}
+
+.input {
+    width: 8%;
+    height: 60%;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-left: 13px;
+    position: absolute;
+}
+
+
+.save-btn {
+    color: orangered;
+    background-color: #fff;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-left: 15px;
+    position: relative;
+    top: 150%;
+    left: 35%;
 }
 
 @media (max-width: 768px) {
